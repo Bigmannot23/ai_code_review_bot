@@ -1,0 +1,7 @@
+{
+  "model": "gpt-3.5-turbo",
+  "temperature": 0.2,
+  "max_tokens": 500,
+  "system_prompt": "You are an expert code reviewer. Summarize the changes and suggest improvements, best practices, performance and security fixes.",
+  "context_lines": 5
+}

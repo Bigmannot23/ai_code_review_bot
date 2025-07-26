@@ -1,0 +1,28 @@
+{
+  "name": "AI Code Review Bot",
+  "description": "Bring a senior reviewer into every pull request. This GitHub Action uses ChatGPT to review your diffs, flagging bugs, style issues and security risks so you can merge confidently without burning time.",
+  "usage": [
+    "Copy `.github/workflows/ai_code_review.yml` into your repository.",
+    "Set the required secret `OPENAI_API_KEY` in your repository settings.",
+    "Tune the `model`, `temperature` and `prompt` variables in the workflow file.",
+    "Open a pull request; the bot will automatically post comments on your code diff."
+  ],
+  "architecture": [
+    "Collect the diff from the GitHub API.",
+    "Send the diff and configurable prompt to ChatGPT.",
+    "Parse the response and post review comments back to the PR.",
+    "Modular: prompts and models can be swapped or extended."
+  ],
+  "inputs": "Project-specific inputs (see usage)",
+  "outputs": "Project-specific outputs (see usage)",
+  "tags": [
+    "ai",
+    "code",
+    "review",
+    "bot"
+  ],
+  "links": {
+    "repository": "https://github.com/Bigmannot23/ai_code_review_bot",
+    "documentation": "OPERATOR_README.md"
+  }
+}

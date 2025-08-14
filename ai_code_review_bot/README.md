@@ -1,6 +1,5 @@
 # AI Code Review Bot
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY/code_review.yml?branch=main)](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY/actions)
 
 ## 📈 Proof‑of‑ROI Quick Stats
 
